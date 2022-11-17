@@ -1,0 +1,42 @@
+/* color variables */
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+}
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--grayishBlue);
+    margin: 0;
+    padding: 84px 27px;
+    font-family: 'Public Sans', sans-serif;
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.QR_image {
+    height: 289px;
+    width: 290px;
+    border-radius: 38px;
+    padding: 26px;
+}
