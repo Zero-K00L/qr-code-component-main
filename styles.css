@@ -17,11 +17,10 @@ html {
 }
 
 body {
-    background-color: var(--grayishBlue);
+    background-color: var(--lightGray);
     margin: 0;
     padding: 84px 27px;
     font-family: 'Public Sans', sans-serif;
-    
 }
 
 .wrapper {
@@ -32,11 +31,31 @@ body {
     border-radius: 20px;
     width: 100%;
     margin: 0 auto;
+    height: 500px
 }
 
 .QR_image {
     height: 289px;
     width: 290px;
     border-radius: 38px;
-    padding: 26px;
+    padding: 26px 26px 32px 26px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    width: 87%;
+    margin: 0 auto;
+    padding-bottom: 26px;
+    color: var(--darkBlue);
+}
+
+p {
+    font-size: 15px;
+    color: var(--grayishBlue);
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    
 }
