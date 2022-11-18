@@ -21,6 +21,11 @@ body {
     margin: 0;
     padding: 5.25rem 1.6875rem;
     font-family: Outfit, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .wrapper {
