@@ -24,7 +24,6 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -37,6 +36,7 @@ body {
     width: 20.0625rem;
     margin: 0 auto;
     height: 31.25rem;
+    box-shadow: 0px 8px 27px -10px var(--grayishBlue);
 }
 
 .QR_image {
@@ -53,12 +53,12 @@ h1 {
     font-weight: 700;
     width: 82%;
     margin: 0 auto;
-    padding-bottom: 1.3125rem;
+    padding-bottom: 1.1875rem;
     color: var(--darkBlue);
 }
 
 p {
-    font-size: 0.9375rem;
+    font-size: 1rem;
     color: var(--grayishBlue);
     text-align: center;
     width: 80%;
